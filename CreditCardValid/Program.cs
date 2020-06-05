@@ -8,7 +8,7 @@ class CreditCard
     public static void Main()
     {
         long number;
-        Console.Write("Enter credit card number (only numbers not letters): ");
+        Console.Write("Enter credit card number: ");
         number = long.Parse( Console.ReadLine());
         Console.Write(number + " is " +
                      (isValid(number) ?
